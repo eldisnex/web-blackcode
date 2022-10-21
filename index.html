@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Interes compuesto</title>
+  </head>
+  <body>
+    <form onsubmit="calculate(event);">
+        <label for="ci">Capital inicial</label>
+        <input type="number" name="ci" id="ci" value="5000" />
+        <br />
+        <label for="apr">Apr (porcentaje anual del pozo a invertir)</label>
+        <input type="number" name="apr" id="apr" value="10" />
+        <br />
+        <label for="months">Meses de inversión</label>
+        <input type="number" name="months" id="months" value="24" />
+        <br />
+        <button id="submit" onclick="">Calcular</button>
+        <span id="text"></span>
+        <p></p>
+    </form>
+  </body>
+  <script src="app.js"></script>
+</html>
